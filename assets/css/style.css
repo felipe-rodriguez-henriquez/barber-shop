@@ -9938,6 +9938,17 @@ h3, h4 {
   color: #FFF;
 }
 
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
 .testimonio__fondo {
   padding-right: 100px;
   padding-left: 100px;
@@ -9963,7 +9974,7 @@ h3, h4 {
 }
 
 .footer__logo {
-  width: 80px;
+  width: 100px;
 }
 
 .hero__bg {
