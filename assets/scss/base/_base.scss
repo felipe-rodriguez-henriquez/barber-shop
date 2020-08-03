@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    background-color: $white;
+    font-family: $roboto;
+}
+a {
+    color: $raisin-black;
+}
+
+.span--color:hover {
+    color: $ruddy-pink;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}

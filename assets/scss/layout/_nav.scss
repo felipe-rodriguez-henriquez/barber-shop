@@ -1,0 +1,30 @@
+.nav__bg{
+    background-color: $eeirie-black;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+@media (max-width:600px){
+    .nav__bg{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    }
+
+.__nav-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+}
+
+.navbar-nav{
+    .nav-link{
+        &:hover{
+            color: $ruddy-pink !important
+        }
+    }
+}
+
+.nav__img-logo{
+    width: 80px;
+}

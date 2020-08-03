@@ -1,0 +1,15 @@
+.contenido__bg {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+@media (max-width:600px){
+    .contenido__bg {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.p__fecha {
+    color: $nickel;
+}

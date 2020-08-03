@@ -1,0 +1,21 @@
+
+//Abstracts
+@import 'abstracts/variables';
+
+//Vendors
+@import "vendor/bootstrap_4.5.0/bootstrap.scss";
+
+//Base
+@import 'base/typography';
+
+
+//Components
+@import 'components/buttons';
+@import 'components/pagination';
+@import 'components/testimonio';
+
+//Layout
+@import 'layout/contenido';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/nav';
